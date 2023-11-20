@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container::before{
+    content: "";
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+    height: 100px;
+    position: absolute;
+    left: 35px;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+
+
+
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.container .navbar .right .language{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color:white;
+    background: red;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.container .navbar .right button a{
+    text-decoration: none;
+    color: white;
+}
+.container .title{
+    padding: 70px 45px;
+}
+.container .title .content{
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.container .title .content h1{
+    width: 650px;
+    margin: auto;
+    font-size: 3.1rem;
+    text-align: center;
+}
+.container .title .content h2{
+    width: 650px;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.container .title .content form h3{
+    font-size: 1rem;
+    margin: 18px 0;
+    text-align: center;
+}
+
+
